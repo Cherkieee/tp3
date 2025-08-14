@@ -1,0 +1,110 @@
+/* Este es un comentario en CSS. Aquí definimos estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+}
+
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Usamos flexbox para alinear el menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* Estilo para cuando pasas el mouse sobre un enlace */
+nav a:hover {
+    background-color: #555;
+    color: #ffc107; /* Color amarillo para resaltar */
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333; /* Color oscuro para los títulos */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borde de 1px sólido y gris */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Fondo ligeramente gris para encabezados */
+}
+
+/* Estilos para el formulario en productos.html */
+form {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block; /* Hace que la etiqueta ocupe su propia línea */
+    margin-top: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Color de fondo verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838; /* Un verde más oscuro al pasar el mouse */
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+}
